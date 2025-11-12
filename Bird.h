@@ -3,7 +3,19 @@
 
 #include "Animal.h"
 
-//define class bird here 
+#inlude <iostream>
+using namespace std;
+#ifndef  Anmial _h 
+define Anmial_h
+
+private class Bird {
+    private :
+    float wingSpan;
+}
+private:
+Bird (float wingSpan);
+wingSpan= W;
+Bird();
 
 
 
