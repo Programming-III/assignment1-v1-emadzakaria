@@ -52,9 +52,15 @@ this-> currentCount = currentCount;
 
 int main()
 {
-   cout<<:"Enclosure = " <<
+  Mammal* lion = new Mammal("Lion", 5, true, "Golden");
+    Bird* parrot = new Bird("Parrot", 2, false, 0.25);
+    Reptile* snake = new Reptile("Snake", 3, true, true);
    
+ delete lion;
+    delete parrot;
+    delete snake;
 
+    return 0;
     return 0;
 }
 
